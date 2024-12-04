@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api-server
-          image: reneeins/api-server:4
+          image: reneeins/api-server:5
           ports:
             - containerPort: 8000
           env:
