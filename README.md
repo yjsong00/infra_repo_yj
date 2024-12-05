@@ -23,6 +23,7 @@
   : Docker 엔진을 통해서 minikube 클러스터를 구축하게 되면 external IP를 할당받지 못해서 외부 접근이 안되는 문제가 지속적으로 발생한다고 함
   ```bash
   minikube service my-svc --url
+  ```
   
   <img width="592" alt="스크린샷 2024-12-06 오전 2 52 30" src="https://github.com/user-attachments/assets/70809806-329c-45d9-9674-6b04a8522c3b">
 
