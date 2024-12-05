@@ -24,5 +24,5 @@
   ```bash
   minikube service my-svc --url
   
-<img width="592" alt="스크린샷 2024-12-06 오전 2 52 30" src="https://github.com/user-attachments/assets/70809806-329c-45d9-9674-6b04a8522c3b">
+  <img width="592" alt="스크린샷 2024-12-06 오전 2 52 30" src="https://github.com/user-attachments/assets/70809806-329c-45d9-9674-6b04a8522c3b">
 
