@@ -14,15 +14,13 @@
 ## 4. 구축 완료 보고
 - **문제발생** : 미니큐브의 ip 노드포트로의 접근이 안됨
 - 포트 포워딩을 통한 api-server의 **로컬 접속, db 연동**도 잘 됨.
-
-: apiserver와 db는 문제 없음
+  : apiserver와 db는 문제 없음
   <img width="514" alt="스크린샷 2024-12-06 오전 2 56 40" src="https://github.com/user-attachments/assets/9650e785-42f6-46e9-b51e-943579f34172">
 
   <img width="647" alt="스크린샷 2024-12-05 오전 8 20 28" src="https://github.com/user-attachments/assets/e246bac1-9247-4f5a-b366-774131337d0f">
 
 - 문제 해결을 위해 강제로 접근이 가능한 url을 얻기 위해 다음 커멘드를 사용
-
-: Docker 엔진을 통해서 minikube 클러스터를 구축하게 되면 external IP를 할당받지 못해서 외부 접근이 안되는 문제가 지속적으로 발생한다고 함
+  : Docker 엔진을 통해서 minikube 클러스터를 구축하게 되면 external IP를 할당받지 못해서 외부 접근이 안되는 문제가 지속적으로 발생한다고 함
   ```bash
   minikube service my-svc --url
   ```
